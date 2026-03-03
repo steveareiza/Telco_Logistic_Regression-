@@ -5,6 +5,22 @@ This project uses the Telco customer churn dataset to build an **end-to-end mach
 
 ---
 
+## Data Source
+This project uses the **IBM Telco Customer Churn** dataset publicly available on Kaggle:
+
+IBM Telco Customer Churn Dataset  
+https://www.kaggle.com/blastchar/telco-customer-churn
+
+The dataset contains customer-level information including demographics, service subscriptions, tenure, monthly charges, total charges, and churn status.
+
+To reproduce this analysis:
+
+1. Download the dataset from Kaggle.
+2. Place the `telco_churn.csv` file in the root directory of this project.
+3. Run the notebook `TELCO_Churn_Logistic_Regression.ipynb`.
+
+---
+
 ## Objective
 - Predict which customers are likely to churn.  
 - Provide **business recommendations** based on feature importance.  
@@ -36,8 +52,8 @@ This project uses the Telco customer churn dataset to build an **end-to-end mach
 
 6. **Model Interpretation**
    - Examined coefficients to identify drivers of churn:  
-     - Fiber optic internet and streaming services → higher churn risk  
-     - Multi-service customers and longer tenure → lower churn risk  
+     - Fiber optic internet and streaming service tend to show higher churn risk  
+     - Multi-service, yearly contracts, and longer tenure tend to show lower churn risk  
 
 7. **Actionable Recommendations**
    - Audit fiber-optic service quality, internet speed, and streaming packages.  
